@@ -1,0 +1,83 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fafafa;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    margin: 0 10px;
+    color: #333; /* Cor do texto */
+    text-decoration: none;
+    font-weight: bold; /* Texto em negrito */
+    border-bottom: 2px solid transparent; /* Adicionando uma borda inferior transparente */
+    transition: color 0.3s ease, border-bottom 0.3s ease; /* Adicionando transição */
+}
+
+nav a:hover {
+    color: #555; /* Mudar a cor do texto quando passar o mouse */
+    border-bottom-color: #555; /* Mudar a cor da borda inferior quando passar o mouse */
+}
+
+main {
+    padding: 20px;
+}
+
+.playlist {
+    background-color: #f4f4f4;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.playlist ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center; /* Centralizando os links */
+}
+
+.playlist li {
+    padding: 15px 0; /* Aumentando o espaçamento vertical */
+    border-bottom: 1px solid #ccc;
+    margin: 5px 0; /* Adicionando margem vertical */
+}
+
+.playlist a {
+    text-decoration: none;
+    color: #ff0000; /* Cor do link */
+    transition: color 0.3s ease; /* Adicionando transição */
+    display: inline-block;
+    padding: 5px 10px;
+    border: 2px solid #ff9b19;
+    border-radius: 5px;
+}
+
+.playlist a:hover {
+    color: #000000; /* Mudar a cor do texto quando passar o mouse */
+    background-color: #ff8037; /* Mudar a cor de fundo quando passar o mouse */
+}
+
+.playlist h2 {
+    margin-top: 0;
+    text-align: center; /* Centralizando o título */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
